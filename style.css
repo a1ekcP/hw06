@@ -1,0 +1,160 @@
+
+a{
+    text-decoration: none;
+    color: #40babd;
+}
+body{
+    background-color: #494d55;
+    font-size: 14px;
+    font-family: 'Trispace', sans-serif;
+}
+
+/*------------------------HEADER---------------------*/
+
+.header{
+    border-top: 6px solid #40babd;
+}
+.fa-heart{
+    color: #EA5395;
+}
+header p {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*------------------------HEADER---------------------*/
+
+/*------------------------MAIN-----------------------*/
+
+main.page .container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.page__header-title{
+    font-weight: 600;
+    color: #494d55;
+}
+.page__header-text{
+    color: #616670;
+}
+.page__header-btn{
+    background: #40babd;
+    border: 1px solid #40babd;
+    font-weight: 600;
+    box-shadow: 4px 4px #067b7e;
+}
+.page__header-btn:hover{
+    background: #40babd;
+    border: 1px solid #40babd;
+    transform: translate(1px, 1px);
+    box-shadow: 3px 3px #067b7e;
+    transition: 0.5s;
+}
+
+/*-----color_blocks----*/
+
+.green{
+    border-top: 3px solid #75c181;
+}
+.green > i{
+    color: #75c181;
+    font-size: 36px;
+}
+
+.pink{
+    border-top: 3px solid #EA5395;
+}
+.pink > i{
+    color: #EA5395;
+    font-size: 36px;
+}
+.blue{
+    border-top: 3px solid #58bbee;
+}
+.blue > i{
+    color: #58bbee;
+    font-size: 36px;
+}
+.violet{
+    border-top: 3px solid #8A40A7;
+}
+.violet > i{
+    color: #8A40A7;
+    font-size: 36px;
+}
+.light-blue{
+    border-top: 3px solid #40babd;
+}
+.light-blue > i{
+    color: #40babd;
+    font-size: 36px;
+}
+.orange{
+    border-top: 3px solid #F88C30;
+}
+.orange > i{
+    color: #F88C30;
+    font-size: 36px;
+}
+/*-----color_blocks----*/
+
+
+.green > h3,
+.pink > h3,
+.blue > h3,
+.violet > h3,
+.orange > h3,
+.light-blue > h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.greem > p,
+.pink > p,
+.blue > p,
+.violet > p,
+.orange > p,
+.light-blue > p{
+    color: #616670;
+}
+
+
+.card__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 0.7s;
+}
+.card__link:hover{
+    background-color: rgba(128, 128, 128, 0.082);
+    transition: 0.7s;
+}
+
+/*--------------FOOTER---------------*/
+
+.footer__link{
+    position: relative;
+    display: inline-block;
+}
+.footer__link:hover{
+    color: #40babd;
+}
+.footer__link::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    height: 1px;
+    width: 0;
+    background-color: #40babd;
+}
+.footer__link:hover::after{
+    width: 100%;
+    left: 0;
+
+    transition: 0.8s;
+}
+
+/*--------------FOOTER---------------*/
